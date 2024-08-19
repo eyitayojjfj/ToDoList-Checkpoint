@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: skyblue;
+}
+
+.app {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 150px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-form input {
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-form button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task-item button {
+  margin-left: 5px;
+  color: white;
+}
+.bn1{
+  background-color: lightgreen; 
+  border: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bn2{
+  background-color: red; 
+  border: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bn3{
+  background-color: grey; 
+   border: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.yes{
+  text-align: center;
+  padding-top: 30px;
+}
